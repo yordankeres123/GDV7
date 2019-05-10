@@ -54,22 +54,16 @@ echo
 echo $me"MENU TOOLS DIBAWAH INI"
 echo
 echo $cy"__________________________________________"
-echo $cy"|                 DEFACE                 |"
-echo $cy"|________________________________________|"
-echo $cy"| 1. METODE WEBDAV                       |"
-echo $cy"|________________________________________|"
-echo $cy"|                                        |"
-echo $cy"__________________________________________"
 echo $cy"|              HACK FB DLL               |"
 echo $cy"|________________________________________|"
-echo $cy"| 2.REPORT FACEBOOK                      |"
-echo $cy"| 3.HACK FACEBOOK METODE MBF             |"
+echo $cy"| 1.REPORT FACEBOOK                      |"
+echo $cy"| 2.HACK FACEBOOK METODE MBF             |"
 echo $cy"|________________________________________|"
 echo $cy"|                                        |"
 echo $cy"__________________________________________"
 echo $cy"|               LITESPAM                 |"
 echo $cy"|________________________________________|"
-echo $cy"| 4.LITESPAM                             |"
+echo $cy"| 3.LITESPAM                             |"
 echo $cy"|________________________________________|"
 echo $cy"| 0.untuk keluar                         |"
 echo $cy"|________________________________________|"
@@ -85,22 +79,12 @@ then
 clear
 toilet GREEN | lolcat
 toilet DRAGON | lolcat
-https://github.com/yordankeres123/webdav
-cd webdav
-sh webdav.sh
-fi
-
-if [ $lagi = 2 ] || [ $lagi = 02 ]
-then
-clear
-toilet GREEN | lolcat
-toilet DRAGON | lolcat
 https://github.com/yordankeres123/reportfb
 cd reportfb
 sh RFB.sh
 fi
 
-if [ $lagi = 3 ] || [ $lagi = 03 ]
+if [ $lagi = 2 ] || [ $lagi = 03 ]
 then
 clear
 toilet GREEN | lolcat
@@ -110,7 +94,7 @@ cd fbbrute
 python2 MBF.py
 fi
 
-if [ $lagi = 4 ] || [ $lagi = 04 ]
+if [ $lagi = 3 ] || [ $lagi = 03 ]
 then
 clear
 toilet GREEN | lolcat
