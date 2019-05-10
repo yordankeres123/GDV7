@@ -85,7 +85,7 @@ then
 clear
 toilet GREEN | lolcat
 toilet DRAGON | lolcat
-cd modul
+https://github.com/yordankeres123/webdav
 cd webdav
 sh webdav.sh
 fi
@@ -95,7 +95,7 @@ then
 clear
 toilet GREEN | lolcat
 toilet DRAGON | lolcat
-cd modul
+https://github.com/yordankeres123/reportfb
 cd reportfb
 sh RFB.sh
 fi
@@ -105,9 +105,9 @@ then
 clear
 toilet GREEN | lolcat
 toilet DRAGON | lolcat
-cd modul
-cd multi-bruteforce-facebook
-python2 MBF.sh
+git clone https://github.com/Senitopeng/fbbrute
+cd fbbrute
+python2 MBF.py
 fi
 
 if [ $lagi = 4 ] || [ $lagi = 04 ]
@@ -115,8 +115,10 @@ then
 clear
 toilet GREEN | lolcat
 toilet DRAGON | lolcat
-cd modul
-python2 LITESPAM.py
+pkg install php
+git clone https://github.com/4L13199/LITESPAM
+cd LITESPAM
+sh LITESPAM.sh
 fi
 
 if [ $lagi = 0 ] || [ $lagi = 00 ]
